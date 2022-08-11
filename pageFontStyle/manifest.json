@@ -17,5 +17,12 @@
   "background": {
     "scripts": ["eventPage.js"],
     "persistent": false
-  }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://developers.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
 }
