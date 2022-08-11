@@ -21,7 +21,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://developers.google.com/*"],
+      "matches": ["https://developer.chrome.com/*"],
       "js": ["content.js"]
     }
   ]
