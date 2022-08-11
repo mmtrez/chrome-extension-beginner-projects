@@ -16,3 +16,4 @@ this extension covers :
 - Background / Event pages
 - Context menus
 - Badges
+- permessions
